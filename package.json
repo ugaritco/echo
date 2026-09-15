@@ -1,0 +1,24 @@
+{
+  "description": "Ugarit Echo library for beautiful Pusher and Socket.IO integration",
+  "homepage": "https://github.com/ugarit/echo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ugarit/echo"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Taylor Otwell"
+  },
+  "packageManager": "pnpm@12.3.4",
+  "scripts": {
+    "test": "pnpm -r --parallel --no-sort --if-present run test",
+    "typecheck": "pnpm -r --parallel --no-sort --if-present run typecheck",
+    "build": "pnpm -r --if-present run build",
+    "lint": "pnpm -r --parallel --no-sort --if-present run lint",
+    "format": "pnpm -r --parallel --no-sort --if-present run format",
+    "compile": "pnpm -r --if-present run compile",
+    "declarations": "pnpm -r --if-present run declarations",
+    "dev": "pnpm -r --parallel --filter './packages/*' dev"
+  },
+  "version": "1.00.00"
+}
